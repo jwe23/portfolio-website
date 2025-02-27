@@ -1,0 +1,70 @@
+/* General Page Styling */
+.projects-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Page Header */
+  .projects-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  /* Optional Description Styling */
+  .projects-description {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Grid for Project Cards */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .projects-page {
+      padding: 1.5rem;
+    }
+  
+    .projects-page h1 {
+      font-size: 2.2rem;
+    }
+  
+    .projects-description {
+      font-size: 1.1rem;
+    }
+  
+    .projects-grid {
+      gap: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .projects-page {
+      padding: 1rem;
+    }
+  
+    .projects-page h1 {
+      font-size: 2rem;
+    }
+  
+    .projects-description {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,40 @@
+/* src/components/portfolio/projectcard.css */
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .project-card-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .project-card-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+    transition: color 0.2s ease;
+  }
+  
+  .project-card-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
