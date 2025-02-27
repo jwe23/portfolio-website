@@ -1,6 +1,9 @@
 .
 ├── client
-│   ├── eslint.config.js
+│   ├── config
+│   │   ├── eslint.config.js
+│   │   ├── tsconfig.json
+│   │   └── vite.config.ts
 │   ├── index.html
 │   ├── package.json
 │   ├── package-lock.json
@@ -14,33 +17,26 @@
 │   │   │   └── hero-background.jpg
 │   │   ├── components
 │   │   │   ├── common
-│   │   │   │   ├── footer.css
 │   │   │   │   ├── footer.tsx
-│   │   │   │   ├── navbar.css
 │   │   │   │   └── navbar.tsx
 │   │   │   └── portfolio
-│   │   │       ├── projectcard.css
 │   │   │       └── projectcard.tsx
-│   │   ├── data
-│   │   │   └── projectsdata.ts
+│   │   ├── constants
+│   │   │   └── projects.ts
 │   │   ├── index.css
 │   │   ├── main.tsx
 │   │   ├── pages
-│   │   │   ├── aboutpage.css
 │   │   │   ├── aboutpage.tsx
-│   │   │   ├── blogpage.css
 │   │   │   ├── blogpage.tsx
-│   │   │   ├── contactpage.css
 │   │   │   ├── contactpage.tsx
-│   │   │   ├── homepage.css
 │   │   │   ├── homepage.tsx
-│   │   │   ├── projectspage.css
 │   │   │   └── projectspage.tsx
+│   │   ├── styles
+│   │   │   ├── components.css
+│   │   │   └── pages.css
 │   │   └── vite-env.d.ts
 │   ├── tsconfig.app.json
-│   ├── tsconfig.json
-│   ├── tsconfig.node.json
-│   └── vite.config.ts
+│   └── tsconfig.node.json
 ├── node_modules
 │   ├── cookie
 │   │   ├── dist
@@ -288,4 +284,4 @@
 ├── projectstruct.txt
 └── README.md
 
-43 directories, 245 files
+45 directories, 239 files
