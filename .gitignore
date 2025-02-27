@@ -37,3 +37,4 @@ public/static/
 *.pem
 *.pid
 *.seed
+node_modules/
