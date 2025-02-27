@@ -1,5 +1,5 @@
 import React from 'react';
-import './blogpage.css';
+import '../styles/pages/pages.css';
 
 const BlogPage: React.FC = () => {
   return (
